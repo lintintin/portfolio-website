@@ -93,3 +93,9 @@ a:active { /* selected link */
 .button.link:hover {
   background-color: #ff7f50;
   color: #ffffff;
+
+  header {
+    background-color: #ff44c4;
+    padding: 10px;
+    margin: 10px;
+  }
