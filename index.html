@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-	<meta charset="utf-8">
-	<title>lindsay a hill</title>
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta charset="utf-8">
+		<title>lindsay a hill, ui + visual designer</title>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-<!-- For the header -->
+<!-- for the header -->
 <header>
-	<div>
-	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="491" height="78" viewBox="0 0 491 78">
-	  <defs>
-	    <clipPath id="clip-Artboard_1">
-	      <rect width="491" height="78"/>
-	    </clipPath>
-	  </defs>
-	  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
-	    <rect width="491" height="78" fill="#fff"/>
-	    <text id="lindsay_a_hill_designer" data-name="lindsay a hill  /  designer" transform="translate(14 53)" fill="#707070" font-size="40" font-family="Gopher-Regular, Gopher"><tspan x="0" y="0" xml:space="preserve">lindsay a hill  /  designer</tspan></text>
-	  </g>
-	</svg>
-  <!-- For the navigation -->
-	<div id="nav">
+<!-- for the nav -->
+	<div class="container">
+	<div class="navtoggle" id="myNavtoggle">
+	<!-- logo -->
+	<a href="index.html">
+	    <svg class="logo" width="491" height="78" viewbox="0 0 491 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+			<g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+			<rect width="491" height="78" fill="#F0D8D3"/>
+			<text id="lindsay_a_hill_designer" data-name="lindsay a hill  /  designer" transform="translate(14 53)" fill="#707070" font-size="20" font-family="Gopher-Regular, Gopher"><tspan x="0" y="0" xml:space="preserve">lindsay a hill  /  designer</tspan></text>
+	    </g>
+	   </g>
+	  </svg>
+	 </a>
+ </div>
+</div>
+  	<!-- navigation -->
+		<div id="nav">
     <nav>
-			<ul>
+			<ul class="navigation">
       <li><a href="index.html">work</a></li>
       <li><a href="about.html">about</a></li>
       <li><a href="#contact">contact</a></li>
 		</ul>
-    </nav>
+   </nav>
   </div>
 </header>
+<!-- end header section -->
 
 <!-- For the hero section -->
 <main>
-<div id="main">
-	<div class>
+<div id="hero">
+	<div class="container">
 	<h1>hi, i'm lindsay.</h1>
 		<h2>i'm a driven ui designer who appreciates simple,
 		beautiful, and quirky design.</h2>
@@ -49,12 +54,12 @@
 
 <!-- for your work/projects -->
 <div id="work">
-<div class>
+<div class="container">
 		<h2>work</h2>
-		<div class>
+		<div class="row">
 			<div class>
 				<picture>
-					<source src="img/freesies/freesiespreviewweb.jpg" media="max-width:767px">
+					<source srcset="img/freesies/freesiespreviewweb.jpg" media="(max-width:767px)">
 					<img src="img/freesies/freesiespreviewmobile.jpg" alt="freesies project">
 				</picture>
 			</div>
@@ -74,13 +79,13 @@
 
 <!-- For the footer  -->
 <footer id=contact>
-  <div class>
+  <div class="container">
 		<p>
 			thanks for taking the time to delve into my work! feel
 			free to get in touch if you would like to work together.
 		</p>
 		<div class>
-			<a href="mailto:lindsayalinehill [at] gmail.com" class="button contact">email me</a>
+			<a href="mailto:lindsayalinehill@gmail.com" class="button contact">email me</a>
 			<div class>
 				<ul>
 				<li>

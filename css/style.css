@@ -3,14 +3,18 @@ colors used:
 primary color (light pink): #F0D8D3;
 secondary color (blue): #556CA3;
 */
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #F0D8D3;
   font-family: 'Anonymous Pro', monospace;
-  font-size: 16px; /* Sets the font size to 16px */
-font-weight: 400; /* Sets the font weight to 300 */
-line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-text-transform: lowercase;
-color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  text-transform: lowercase;
+  color: #white;
 }
 
 h1, h2, h3, h4 {
@@ -35,47 +39,46 @@ font-size: 1.35em;
 font-weight: 400;
 }
 
+/*images*/
 img {
   width: 100%;
 }
 
+/*links*/
 a {
   color: #ff7f50;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
 }
-
-a:visited { /* visited link */
+a:visited {
   color: #ff7f50;
 }
-
 a:hover {
   color: #cc6540;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: underline;
 }
 a:hover,
 a:focus {
   color: #cc6540;
   text-decoration: underline;
 }
-
-a:active { /* selected link */
+a:active {
   color: #994c30;
 }
 
+/*buttons*/
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  display: inline-block;
   background-color: transparent;
-  color: #ff7f50; /* needed to override the default link color */
+  color: #ff7f50;
   font-weight: 400;
   padding: 10px;
-  border: 2px solid #ff7f50; /* width of the border, type, color */
+  border-radius: 2px solid #ff7f50;
   transition: 0.2s opacity;
 }
 .button:hover {
   background-color: #ff7f50;
   color: #ffffff;
 }
-
 .button.contact {
   background-color: transparent;
   color: #ff7f50;
@@ -94,8 +97,51 @@ a:active { /* selected link */
   background-color: #ff7f50;
   color: #ffffff;
 
-  header {
-    background-color: #ff44c4;
-    padding: 10px;
-    margin: 10px;
+/* layout styling */
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #ff7f50;
+  padding: 10px 0 0;
+  text-align: center;
   }
+.container {
+  padding: 0 15px;
+}
+#work .row {
+  margin: 25px 15px; /* 25 px top and bottom, 15 left and right */
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
+.logo {
+  max-width: 250px;
+  margin-top: 15px;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+#hero {
+  background-color: #ff7f50;
+}
+
+#hero h1 {
+  margin: 0;
+  padding: 0.67em 0;
+}
