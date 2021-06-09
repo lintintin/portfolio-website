@@ -105,6 +105,9 @@ header {
   background-color: #ff7f50;
   padding: 10px 0 0;
   text-align: center;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   }
 .container {
   padding: 0 15px;
@@ -141,7 +144,13 @@ nav > ul > li > a {
   background-color: #ff7f50;
 }
 
-#hero h1 {
-  margin: 0;
-  padding: 0.67em 0;
+#hero {
+  background-color: #ff7f50;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+main {
+  padding-top: 133px;
 }
