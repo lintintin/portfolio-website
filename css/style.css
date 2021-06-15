@@ -96,13 +96,14 @@ a:active {
 .button.link:hover {
   background-color: #ff7f50;
   color: #ffffff;
+}
 
 /* layout styling */
 
 header {
   position: fixed;
   width: 100%;
-  background-color: #ff7f50;
+  background-color: #F0D8D3;
   padding: 10px 0 0;
   text-align: center;
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
@@ -135,22 +136,22 @@ nav > ul > li {
 }
 nav > ul > li > a {
   padding: 0 15px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 700;
-  color: #4a4a4a;
+  color: #white;
 }
 
 #hero {
-  background-color: #ff7f50;
+  background-color: #F0D8D3;
 }
 
 #hero {
-  background-color: #ff7f50;
+  background-color: #F0D8D3;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
 }
 
 main {
-  padding-top: 133px;
+  padding-top: 150px;
 }
