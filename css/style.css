@@ -197,17 +197,35 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
+
   nav > ul {
     margin: 1em 0;
   }
+
   #hero span {
   display: block;
 }
+
 .col-md-6 {
   width: 50%;
 }
+
 [class*="col-"] {
   float: left;
+  padding-left: 10px;
+}
+
+.col-md-4 {
+  width: 33.33%;
+}
+
+.col-md-6 {
+  width: 50%;
+  padding-right: 20px;
+}
+
+main {
+  padding-top: 90px;
 }
 }
 
