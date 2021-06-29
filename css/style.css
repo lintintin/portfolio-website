@@ -101,7 +101,6 @@ a:active {
   color: #ffffff;
 }
 
-
 /* layout styling */
 .logo, .logo:visited, .logo:hover {
   color: #556CA3;
@@ -113,13 +112,14 @@ a:active {
 header {
   position: fixed;
   width: 100%;
+  min-width: 641px;
   background-color: #F0D8D3;
   padding: 10px 0 0;
-  text-align: center;
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   }
+
 .container {
   padding: 0 15px;
 }
@@ -146,18 +146,49 @@ nav {
   display: inline-block;
   width: 100%;
 }
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle,
+.navtoggle.responsive {
+  position: relative;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(134, 134, 134, 0.192);
+}
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 25px;
+  font-size: 20px;
+  padding-right: 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+}
+
 nav > ul {
   list-style-type: none;
   padding: 0;
-}
-nav > ul > li {
-  display: inline-block;
+  margin: 0;
 }
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: lowercase;
   font-weight: 700;
   color: white;
+}
+
+main {
+  padding-top: 80px;
 }
 
 #hero {
@@ -171,10 +202,6 @@ nav > ul > li > a {
   width: 100%;
 }
 
-main {
-  padding-top: 80px;
-}
-
 .row.solution::after {
   content: "";
   clear: both;
@@ -184,6 +211,8 @@ main {
   float: left;
   padding-left: 10px;
 }
+
+
 
 @keyframes cloud-move {
   from {transform: translate(0,50px);}
@@ -201,7 +230,7 @@ main {
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -214,11 +243,18 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
-
   nav > ul {
     margin: 1em 0;
   }
-
+  nav > ul > li {
+    display: inline-block;
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
+  }
   #hero span {
   display: block;
 }
@@ -240,7 +276,6 @@ Medium devices (640px and larger)
   float: left;
   padding-left: 10px;
 }
-
 
 main {
   padding-top: 90px;
