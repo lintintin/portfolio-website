@@ -46,23 +46,23 @@ img, svg {
 
 /*links*/
 a {
-  color: white;
+  color: #556CA3;
   text-decoration: none;
 }
 a:visited {
-  color: white;
+  color: #556CA3;
 }
 a:hover {
-  color: white;
+  color: #556CA3;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: white;
+  color: #556CA3;
   text-decoration: none;
 }
 a:active {
-  color: white;
+  color: #556CA3;
 }
 
 /*buttons*/
@@ -84,7 +84,7 @@ a:active {
 }
 .button.contact {
   background-color: #556CA3;
-  color: #ff7f50;
+  color: white;
   border: 2px solid #556CA3;
 }
 .button.contact:hover {
@@ -112,7 +112,6 @@ a:active {
 header {
   position: fixed;
   width: 100%;
-  min-width: 641px;
   background-color: #F0D8D3;
   padding: 10px 0 0;
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
@@ -167,7 +166,7 @@ nav {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 25px;
+  top: 0;
   font-size: 20px;
   padding-right: 0;
 }
@@ -184,7 +183,7 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: lowercase;
   font-weight: 700;
-  color: white;
+  color: #556CA3;
 }
 
 main {
@@ -254,6 +253,16 @@ Medium devices (640px and larger)
   }
   .navtoggle li:last-child {
     display: none;
+  }
+  .navtoggle.responsive nav {
+    padding: 0 0 0;
+  }
+  .navtoggle.responsive li {
+    padding: 0 0;
+    border-top: none;
+  }
+  .navtoggle.responsive li:last-child {
+    padding: 0 0 0;
   }
   #hero span {
   display: block;
