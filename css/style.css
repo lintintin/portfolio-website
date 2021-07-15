@@ -1,6 +1,6 @@
 /*
 colors used:
-primary color (light pink): #F0D8D3;
+primary color (light pink): #F8EDEA;
 secondary color (blue): #556CA3;
 */
 * {
@@ -8,7 +8,7 @@ secondary color (blue): #556CA3;
 }
 
 body {
-  background-color: #F0D8D3;
+  background-color: #F8EDEA;
   font-family: 'Anonymous Pro', monospace;
   font-size: 16px;
   font-weight: 400;
@@ -191,11 +191,11 @@ main {
 }
 
 #hero {
-  background-color: #F0D8D3;
+  background-color: #F8EDEA;
 }
 
 #hero {
-  background-color: #F0D8D3;
+  background-color: #F8EDEA;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
