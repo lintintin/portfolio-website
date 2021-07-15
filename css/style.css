@@ -46,31 +46,31 @@ img, svg {
 
 /*links*/
 a {
-  color: #F8EDEA;
+  color: #556CA3;
   text-decoration: none;
 }
 a:visited {
-  color: #F8EDEA;
+  color: #556CA3;
   text-decoration: none;
 }
 a:hover {
-  color: #F8EDEA;
+  color: #556CA3;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #F8EDEA;
+  color: #556CA3;
   text-decoration: none;
 }
 a:active {
-  color: #F8EDEA;
+  color: #556CA3;
 }
 
 /*buttons*/
 .button {
   display: inline-block;
-  background-color: #556CA3;
-  color: white;
+  background-color: #F8EDEA;
+  color: #556CA3;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
@@ -79,27 +79,27 @@ a:active {
   transition: 0.2s opacity;
 }
 .button:hover {
-  background-color: #556CA3;
-  color: #ffffff;
+  background-color: #F8EDEA;
+  color: #556CA3;
   opacity: 0.8;
 }
 .button.contact {
-  background-color: #556CA3;
+  background-color: #F8EDEA;
   color: white;
   border: 2px solid #556CA3;
 }
 .button.contact:hover {
-  background-color: #556CA3;
-  color: #ffffff;
+  background-color: #F8EDEA;
+  color: #556CA3;
 }
 .button.link {
-  background-color: #556CA3;
+  background-color: #F8EDEA;
   color: white;
   border: 2px solid #556CA3;
 }
 .button.link:hover {
-  background-color: #556CA3;
-  color: #ffffff;
+  background-color: #F8EDEA;
+  color: #556CA3;
 }
 
 /* layout styling */
