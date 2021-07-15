@@ -80,7 +80,7 @@ a:active {
 .button:hover {
   background-color: #F8EDEA;
   color: #556CA3;
-  opacity: 0.8;
+  opacity: 0.75;
 }
 .button.contact {
   background-color: #F8EDEA;
