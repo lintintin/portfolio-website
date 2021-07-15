@@ -46,24 +46,24 @@ img, svg {
 
 /*links*/
 a {
-  color: #556CA3;
+  color: #F8EDEA;
   text-decoration: none;
 }
 a:visited {
-  color: #556CA3;
+  color: #F8EDEA;
   text-decoration: none;
 }
 a:hover {
-  color: #556CA3;
+  color: #F8EDEA;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #556CA3;
+  color: #F8EDEA;
   text-decoration: none;
 }
 a:active {
-  color: #556CA3;
+  color: #F8EDEA;
 }
 
 /*buttons*/
@@ -113,7 +113,7 @@ a:active {
 header {
   position: fixed;
   width: 100%;
-  background-color: #F0D8D3;
+  background-color: #F8EDEA;
   padding: 10px 0 0;
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
