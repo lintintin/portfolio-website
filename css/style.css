@@ -103,7 +103,7 @@ a:active {
 
 /* layout styling */
 .logo, .logo:visited, .logo:hover {
-  color: #556CA3;
+  color: white;
   font-size: 18px;
   font-family: Gopher;
   text-decoration: none;
